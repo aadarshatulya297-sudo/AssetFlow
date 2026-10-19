@@ -1,32 +1,120 @@
-# React + TypeScript + Vite
+# 🏢 AssetFlow — Enterprise Asset & Resource Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+![AssetFlow Dashboard](assetflow-dashboard.png)
 
-Currently, two official plugins are available:
+A modern Enterprise Asset & Resource Management System designed to help organizations manage assets, allocate resources, track maintenance activities, monitor utilization, and streamline operational workflows through a centralized platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://asset-flow-pied-rho.vercel.app/
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## ✨ Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- 📊 Centralized Asset Management Dashboard
+- 📦 Asset Registration and Tracking
+- 👥 Resource Allocation and Management
+- 🔧 Asset Maintenance Tracking
+- 📅 Resource Booking and Availability
+- 📈 Asset Utilization Analytics
+- 📉 Resource Status Monitoring
+- 🔍 Organized Navigation and Search
+- 📱 Responsive User Interface
+- ☁️ Centralized Data Management
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Update with the technologies used
+- **Framework:** Update with the framework used
+- **Styling:** Update with the styling tools used
+- **Backend:** Update if applicable
+- **Database:** Update with the database used
+- **Deployment:** Vercel
+
+
+
+
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Navigate to Project
+
+```bash
+cd AssetFlow
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+If your project uses Supabase or another backend, create a `.env.local` file in the project root and configure the required environment variables.
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
+```
+
+*Use the exact environment variable names referenced in your source code.*
+
+### Run Locally
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 in your browser if the project uses the default Next.js development configuration.
+
+---
+
+## 🎯 Use Case
+
+AssetFlow aims to help organizations:
+
+- Maintain organized records of organizational assets.
+- Monitor asset availability and allocation.
+- Track maintenance activities and asset status.
+- Manage shared resources more efficiently.
+- Improve visibility into resource utilization.
+- Reduce manual record-keeping and operational complexity.
+
+---
+
+## 🚀 Future Improvements
+
+- 📦 Advanced Asset Search and Filtering
+- 🔔 Automated Maintenance Notifications
+- 📊 Advanced Analytics and Report Export
+- 📅 Smart Resource Scheduling
+- 📉 Asset Utilization Forecasting
+- 🔐 Enhanced Role-Based Access Control
+- 📱 Improved Mobile Experience
+- 📋 Asset History and Audit Logs
+
+---
+
+## 👨‍💻 Author
+
+**Adarsh Atulya**
+
+- GitHub: [https://github.com/aadarshatulya297-sudo](https://github.com/aadarshatulya297-sudo)
+
+---
+
+*Managing resources efficiently through technology and innovation.*
