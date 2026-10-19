@@ -69,19 +69,7 @@ If your project uses Supabase or another backend, create a `.env.local` file in 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
-```
 
-*Use the exact environment variable names referenced in your source code.*
-
-### Run Locally
-
-```bash
-npm run dev
-```
-
-Open http://localhost:3000 in your browser if the project uses the default Next.js development configuration.
-
----
 
 ## 🎯 Use Case
 
